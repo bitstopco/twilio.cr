@@ -1,4 +1,4 @@
-name: twilio
+name: twilio-cr
 version: 0.1.0
 
 authors:
@@ -7,3 +7,8 @@ authors:
 crystal: 0.25.1
 
 license: MIT
+
+dependencies:
+  icr:
+    github: crystal-community/icr
+    branch: master

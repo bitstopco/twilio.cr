@@ -1,6 +1,8 @@
-require "./twilio/*"
+require "http/client"
+require "json"
 
-# TODO: Write documentation for `Twilio`
+require "./twilio/**"
+require "./mapping/*"
+
 module Twilio
-  # TODO: Put your code here
 end
