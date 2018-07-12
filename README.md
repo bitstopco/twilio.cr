@@ -1,4 +1,4 @@
-# twilio-cr - A library to access the Twilio API
+# twilio.cr - A library to access the Twilio API
 
 
 ## Installation
@@ -7,8 +7,8 @@ Add this to your application's `shard.yml`:
 
 ```yaml
 dependencies:
-  twilio:
-    github: arubinofaux/twilio-cr
+  twilio-cr:
+    github: arubinofaux/twilio.cr
 ```
 
 In your terminal run:
