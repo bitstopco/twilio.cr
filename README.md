@@ -8,7 +8,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   twilio-cr:
-    github: arubinofaux/twilio.cr
+    github: bitstopco/twilio.cr
 ```
 
 In your terminal run:
@@ -19,7 +19,7 @@ shards install
 
 ## Usage
 
-After the installation, you can use twilio-cr by creating a client object:
+After the installation, you can use twilio.cr by creating a client object:
 
 ```crystal
 require "twilio"
@@ -40,7 +40,7 @@ client.messages_create("+16105557069", "+14159341234", "Hey there!")
 
 ## Contributing
 
-1. Fork it (<https://github.com/arubinofaux/twilio-cr/fork>)
+1. Fork it (<https://github.com/bitstopco/twilio.cr/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
