@@ -7,7 +7,7 @@ Add this to your application's `shard.yml`:
 
 ```yaml
 dependencies:
-  twilio-cr:
+  twilio:
     github: bitstopco/twilio.cr
 ```
 
@@ -35,6 +35,8 @@ All the necessary keys can be [viewed in the dashboard](https://www.twilio.com/c
 **Send and SMS**
 
 ```crystal
+#client.messages_create(from, to, message)
+
 client.messages_create("+16105557069", "+14159341234", "Hey there!")
 ```
 
